@@ -13,6 +13,10 @@
 		943FC2F523E1B9B500F62A54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 943FC2F323E1B9B500F62A54 /* Main.storyboard */; };
 		943FC2F723E1B9B800F62A54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 943FC2F623E1B9B800F62A54 /* Assets.xcassets */; };
 		943FC2FA23E1B9B800F62A54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 943FC2F823E1B9B800F62A54 /* LaunchScreen.storyboard */; };
+		943FC30223E1BDFD00F62A54 /* AthkarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943FC30123E1BDFD00F62A54 /* AthkarViewController.swift */; };
+		943FC30423E1BE1000F62A54 /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943FC30323E1BE1000F62A54 /* AboutMeViewController.swift */; };
+		943FC30623E1BE1E00F62A54 /* MainAthkarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943FC30523E1BE1E00F62A54 /* MainAthkarViewController.swift */; };
+		943FC30823E1C18300F62A54 /* AppListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943FC30723E1C18300F62A54 /* AppListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		943FC2F623E1B9B800F62A54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		943FC2F923E1B9B800F62A54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		943FC2FB23E1B9B800F62A54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		943FC30123E1BDFD00F62A54 /* AthkarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AthkarViewController.swift; path = ../../AthkarApp/AthkarApp/AthkarViewController.swift; sourceTree = "<group>"; };
+		943FC30323E1BE1000F62A54 /* AboutMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutMeViewController.swift; path = ../../AthkarApp/AthkarApp/AboutMeViewController.swift; sourceTree = "<group>"; };
+		943FC30523E1BE1E00F62A54 /* MainAthkarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainAthkarViewController.swift; path = ../../AthkarApp/AthkarApp/MainAthkarViewController.swift; sourceTree = "<group>"; };
+		943FC30723E1C18300F62A54 /* AppListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +67,11 @@
 				943FC2ED23E1B9B500F62A54 /* AppDelegate.swift */,
 				943FC2EF23E1B9B500F62A54 /* SceneDelegate.swift */,
 				943FC2F123E1B9B500F62A54 /* ViewController.swift */,
+				943FC30723E1C18300F62A54 /* AppListViewController.swift */,
 				943FC2F323E1B9B500F62A54 /* Main.storyboard */,
+				943FC30123E1BDFD00F62A54 /* AthkarViewController.swift */,
+				943FC30523E1BE1E00F62A54 /* MainAthkarViewController.swift */,
+				943FC30323E1BE1000F62A54 /* AboutMeViewController.swift */,
 				943FC2F623E1B9B800F62A54 /* Assets.xcassets */,
 				943FC2F823E1B9B800F62A54 /* LaunchScreen.storyboard */,
 				943FC2FB23E1B9B800F62A54 /* Info.plist */,
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				943FC30623E1BE1E00F62A54 /* MainAthkarViewController.swift in Sources */,
 				943FC2F223E1B9B500F62A54 /* ViewController.swift in Sources */,
+				943FC30423E1BE1000F62A54 /* AboutMeViewController.swift in Sources */,
 				943FC2EE23E1B9B500F62A54 /* AppDelegate.swift in Sources */,
 				943FC2F023E1B9B500F62A54 /* SceneDelegate.swift in Sources */,
+				943FC30823E1C18300F62A54 /* AppListViewController.swift in Sources */,
+				943FC30223E1BDFD00F62A54 /* AthkarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
